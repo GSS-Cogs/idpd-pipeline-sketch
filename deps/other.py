@@ -55,7 +55,7 @@ def sdmx_sanity_check_v1(*args, **kwargs):
     ...
 
 
-def get_pipeline_name_from_config(pipeline_config: dict) -> str:
+def get_pipeline_identifier_from_config(pipeline_config: dict) -> str:
     """
     Given the contents of a pipeline-config.json returns the name
     for the pipeline to be ran.
