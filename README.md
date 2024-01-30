@@ -9,6 +9,8 @@ pipenv syv
 pipenv run jupyter lab
 ```
 
-The functions and methods are either empty or returning the minimal hard coded return. The intention here is to just work out the skeleton of what pytonh-only pipeline code in such a way that it makes sense regardless of the runner that's used to power the pipeline.
+Alternatively, you could just [read the notebook](https://github.com/GSS-Cogs/idpd-pipeline-sketch/blob/main/pipeline.ipynb).
+
+The functions and methods here are all either empty or returning the minimal hard coded return. The intention here is to just work out the skeleton of what pytonh-only pipeline code in such a way that it makes sense regardless of the runner that's used to power the pipeline.
 
 You should be able to follow the logic by reading though pipeline.ipynb.
